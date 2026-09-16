@@ -1,14 +1,14 @@
-# V2Ray Import Notes
+# Daily Subscription Hub
 
-> A compact V2Ray-focused repository built around import notes, the daily article, and the latest archive entry.
+> A general-purpose subscription hub that keeps the daily article, docs, and plan links together without leaking the real token URL.
 
 ## 今日获取入口
 
 | 项目 | 内容 |
 | --- | --- |
-| 更新日期 | 2026年9月16日 |
-| 自动同步时间 | 2026年9月16日 00:00 |
-| 当天文章 | https://free.tntyx.com/posts/nodes/2026-09-16 |
+| 更新日期 | 2026年9月17日 |
+| 自动同步时间 | 2026年9月17日 00:00 |
+| 当天文章 | https://free.tntyx.com/posts/nodes/2026-09-17 |
 | 订阅格式 | XBoard 通用订阅 |
 | 适配客户端 | Clash Verge Rev / Mihomo / v2rayN / v2rayNG / Shadowrocket / OpenClash |
 | 主要地区 | 香港、日本、新加坡、美国 |
@@ -19,30 +19,30 @@
 ### 当天文章链接
 
 ```text
-https://free.tntyx.com/posts/nodes/2026-09-16
+https://free.tntyx.com/posts/nodes/2026-09-17
 ```
 
-请打开上面的博客文章，在正文“免费订阅地址”区域获取当天可用入口。V2Ray 导入最怕旧链接和旧格式混在一起，所以正文只保留一个入口。
+请打开上面的博客文章，在正文“免费订阅地址”区域获取当天可用入口。很多公开仓库会把最终动作留给站内文章页，我们也延续这个模式。
 
 ## 快速入口
 
-- 今日免费节点文章：https://free.tntyx.com/posts/nodes/2026-09-16
-- 订阅导入教程：https://free.tntyx.com/docs/start/import-subscription
-- 常见问题文档：https://free.tntyx.com/docs
+- 今日免费节点文章：https://free.tntyx.com/posts/nodes/2026-09-17
 - 每日免费节点归档：https://free.tntyx.com/nodes
+- 常见问题文档：https://free.tntyx.com/docs
+- 订阅导入教程：https://free.tntyx.com/docs/start/import-subscription
 - RSS 更新源：https://free.tntyx.com/rss.xml
 
 ## 仓库定位
 
-- 面向场景：V2Ray / Xray 通用订阅和协议格式阅读入口
-- 推荐读者：使用 v2rayN、v2rayNG、Xray 内核或需要理解协议格式的读者
-- 内容重点：V2Ray 订阅、VMess / VLESS / Trojan / SS 格式和客户端兼容性；2026年9月16日更新；香港、日本、新加坡、美国 等地区；100 Mbps 公共限速
+- 面向场景：免费节点订阅导航、连接测试和文档索引入口
+- 推荐读者：需要快速确认今日是否更新、再跳到站内正文操作的读者
+- 内容重点：免费节点文章、订阅说明、连接排查和站内工具导航；2026年9月17日更新；香港、日本、新加坡、美国 等地区；100 Mbps 公共限速
 - 固定入口：https://free.tntyx.com/
 
 ## 今日导入路径
 
-1. 打开今日文章，确认日期是 2026年9月16日，再获取正文里的免费订阅入口。
-2. 先确认订阅格式，再按站内 V2Ray 导入说明添加或刷新节点列表；如果客户端没有弹出，就复制文章里的地址后手动新增订阅。
+1. 打开今日文章，确认日期是 2026年9月17日，再获取正文里的免费订阅入口。
+2. 先打开今日文章，再根据当前客户端进入站内教程或排错页面；如果客户端没有弹出，就复制文章里的地址后手动新增订阅。
 3. 导入后先更新订阅并测速，优先选择延迟稳定的 香港、日本、新加坡、美国 节点。
 4. 如果列表为空或格式不识别，回到站内导入教程、格式检测工具和排错页定位问题。
 
@@ -50,7 +50,7 @@ https://free.tntyx.com/posts/nodes/2026-09-16
 
 - 仓库只保存文章链接，不保存真实订阅 Token。
 - 今日记录包含 24 条 节点，适配 Clash Verge Rev / Mihomo / v2rayN / v2rayNG / Shadowrocket。
-- V2Ray 用户建议先看导入说明，再打开当天文章复制链接。
+- 如果你只想从一个入口看今天文章、教程和正式线路，这个仓库最顺手。
 - 免费节点适合临时测试和学习配置，不建议用于支付、企业后台或长期主力连接。
 
 ## 工具与排查
@@ -66,7 +66,7 @@ https://free.tntyx.com/posts/nodes/2026-09-16
 
 ## 使用说明
 
-本站每日北京时间 00:00 自动处理免费节点用户：重置流量、刷新订阅 Token、写入服务端动态数据，并同步 GitHub 分享仓库。V2Ray 用户建议先看导入说明，再打开当天文章复制链接。 仓库里的 `sub/latest.txt` 只保存当天文章链接，不保存真实订阅地址。
+本站每日北京时间 00:00 自动处理免费节点用户：重置流量、刷新订阅 Token、写入服务端动态数据，并同步 GitHub 分享仓库。如果你只想从一个入口看今天文章、教程和正式线路，这个仓库最顺手。 仓库里的 `sub/latest.txt` 只保存当天文章链接，不保存真实订阅地址。
 
 免费节点适合这些场景：
 
